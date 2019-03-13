@@ -1,0 +1,275 @@
+
+html {
+background-size: cover;
+background: url("../img/header1.jpg") no-repeat center center fixed;
+background-blend-mode: darken;
+transition: 3s;
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+	margin-top: 50px;
+	background: none;
+	color:#fff;
+	padding-top: 5em;
+
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+		margin-bottom:-0.6em;
+		padding-top:0.4em;
+    width: 100%;
+		z-index:9;
+}
+.light{
+	color:#424242;
+}
+#footer p{
+	font-family: 'Roboto', sans-serif; font-weight:200;color:#1f94f1;
+}
+.full {
+  background: url('../bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.title{
+	font-size:2em;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.subtitle{
+	 font-size:1em;
+	 text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.yellow{
+	color:#FFEB3B;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.light{
+	font-family: 'Roboto', sans-serif; font-weight:300;color:#424242;
+}
+
+.bold{
+	font-family: 'Roboto', sans-serif; font-weight:700;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.white { color: #fff; }
+.white-bg {background: #fff; }
+
+.btn{
+	border-radius: 2px;
+	border:solid #2196F3 1px;
+	background:#2196F3;
+	font-family: 'Roboto', sans-serif;
+	font-variant-caps: normal;
+	color:#fff;
+}
+
+.ju-panel{
+	margin-left:6%;
+}
+
+.blue-bg{
+	border-radius:2px;
+	padding-top:8px;
+	background-color: #2196F3;
+	height:40px;
+	width:100%;
+	margin-bottom:0.7em;
+}
+
+.mini{
+	padding:0 42px;
+	text-align:center;
+}
+#minibar {
+height: 2em;
+width:auto;
+overflow: scroll; }
+HTML  CSS   Result
+Edit on
+@import url(//fonts.googleapis.com/css?family=Roboto:400,500,300,100,700,900);
+body {
+        font-family: 'Roboto', sans-serif;
+        background: #eee;
+        height: 100%;
+        width: 100%;
+        padding: 40px;
+        margin: 0;
+        color: #2E2E3C;
+        line-height: 24px;
+        -webkit-font-smoothing: antialiased;
+}
+select{
+	margin-top:14%;
+	color:#424242;
+	font-size:1.1em;
+}/
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+		margin:1em;
+    width: 350px;
+    position: relative;
+    overflow: hidden;
+    background: #FFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #272727;
+    border-radius: 2px;
+  }
+  .card .title {
+    line-height: 48px;
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .card .content {
+    padding: 20px;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px;
+  }
+  .card p {
+    margin: 0;
+  }
+  .card .action {
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 20px;
+  }
+  .card a {
+    color: #ffab40;
+    margin-right: 20px;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .card .image {
+    position: relative;
+  }
+  .card .image img {
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .card .image .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: #FFF;
+  }
+
+.card-title{
+	margin:-0.4em 0 -0.4em 0;
+	color:#2196F3;
+	font-size:2em;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color:#424242;
+}
+a:hover{
+	text-decoration: none;
+	color:#424242;
+}
+
+.black-text{
+	color:#000;
+	text-align: left;
+}
+.light-grey{
+	background:#F5F5F5;
+}
+footer{
+	color:#212121;
+	margin-top:2em;
+}
+.one-three{
+	font-size:1.6em; margin:0.5em 0;
+}
+.1p1{
+	font-size:1.1em
+}
+#cycler{position:relative;}
+#cycler img{position:absolute;z-index:1}
+#cycler img.active{z-index:3}
+
+.bg{position: relative; }
+.front{position:absolute;}
+
+#dropbar{background:#fff; color:#000; box-shadow:2px;border-bottom:3px solid #F5F5F5}
+
+.flag{width:1em;height:1em;display:inline-block;margin-right:0.5em}
+
+.dropdown-menu{
+	border-radius:2px;
+	border:none;
+	box-shadow: 0;
+}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.search-box{
+		margin: 0 10%; border-radius:2px;font-size:1.3em;
+	}
+		.search-div{padding:0 10%}
+}
+.c2{width:100%}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.search-box{margin:0;border-radius:2px;font-size:1.3em;}
+	.search-div{padding:0}
+	.title{
+		font-size:4em;
+		text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+	}
+	.subtitle{
+		 font-size:3em;
+		 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+	}
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.search-box{margin:0;border-radius:2px;font-size:1.3em;}
+	.search-div{padding:0}
+	.title{
+		font-size:4em;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+	}
+	.subtitle{
+		 font-size:3em;
+		 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+	}
+}

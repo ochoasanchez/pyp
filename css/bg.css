@@ -1,0 +1,7 @@
+html {
+background-size: cover;
+background: url("lone-tree.jpg") no-repeat center center fixed;
+background-blend-mode: darken;
+transition: 3s;
+}
+html * { transition: none; }
